@@ -1,0 +1,142 @@
+/* Media Queries para Responsividade */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .cabecalho img {
+        max-width: 100px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .times-messi {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #time {
+        width: 170px;
+    }
+
+    .btn {
+        width: 120px;
+    }
+
+    .block {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .team {
+        padding: 15px;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+
+    img {
+        width: 300px;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .cabecalho {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .cabecalho img {
+        max-width: 80px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .times,
+    .btn {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .block {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .team {
+        padding: 10px;
+    }
+
+    .filtros {
+        margin-bottom: 20px;
+    }
+
+    .times-messi {
+        margin-bottom: 20px;
+    }
+}
+
+/* Telas muito pequenas */
+@media screen and (max-width: 320px) {
+    .cabecalho img {
+        max-width: 60px;
+    }
+
+    .times,
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .team {
+        padding: 8px;
+    }
+}
+
+/* Telas grandes */
+@media screen and (min-width: 1200px) {
+    .block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team {
+        padding: 25px;
+    }
+}
+
+/* Orientação landscape em dispositivos móveis */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    .cabecalho {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .cabecalho img {
+        max-width: 60px;
+    }
+
+    .content {
+        margin-top: 10px;
+    }
+
+    .block {
+        gap: 15px;
+    }
+
+    .team {
+        padding: 10px;
+    }
+}
+

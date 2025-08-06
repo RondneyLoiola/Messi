@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é o meu primeiro site do Goat Messi">
+    <meta name="autor" content="Rondney Oliveira Loiola">
+    <title>Lionel Messi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/messi logo.png" alt="Logo.png" width="140px" height="auto">
+    </header>
+    <main class="container">
+        <div class="filtros">
+            <div class="times-messi">
+                <select id="time" class="times">
+                    <option value="">Selecione um time</option>
+                    <option id="optionbarca" value="barcelona">Barcelona</option>
+                    <option value="psg">Psg</option>
+                    <option value="inter">Inter Miami</option>
+                    <option value="argentina">Argentina</option>
+                </select>
+                <button class="btn">Aplicar Filtros</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <section>
+                <ul class="blocoarg block">
+                    <li class="team"><img src="./src/imagens/argentina1.png" alt="arg1" width="320"></li>
+                    <li class="team"><img src="./src/imagens/argentina2.png" alt="arg2" width="300"></li>
+                    <li class="team"><img src="./src/imagens/argentina3.png" alt="arg3" width="300"></li>
+                </ul>
+            </section>
+
+            <section>
+                <ul class="blocofcb block">
+                    <li class="team"><img src="./src/imagens/barca1.png" alt="fcb1" width="300"></li>
+                    <li class="team"><img src="./src/imagens/barca2.png" alt="fcb2" width="420"></li>
+                    <li class="team"><img src="./src/imagens/barca3.png" alt="fcb3" width="300"></li>
+                </ul>
+            </section>
+
+            <section>
+                <ul class="blocointer block">
+                    <li class="team"><img src="./src/imagens/miami1.png" alt="inter1" width="300"></li>
+                    <li class="team"><img src="./src/imagens/miami2.png" alt="inter2" width="320"></li>
+                    <li class="team"><img src="./src/imagens/miami3.png" alt="inter3" width="380"></li>
+                </ul>
+            </section>
+
+            <section>
+                <ul class="blocopsg block">
+                    <li class="team"><img src="./src/imagens/psg1.png" alt="psg1" width="180"></li>
+                    <li class="team"><img src="./src/imagens/psg2.png" alt="psg2" width="240"></li>
+                    <li class="team"><img src="./src/imagens/psg3.png" alt="psg3" width="200"></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+
+</html>
+

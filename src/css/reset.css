@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Alumni", sans-serif;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
